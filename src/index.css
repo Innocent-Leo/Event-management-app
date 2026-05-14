@@ -26,4 +26,7 @@
   --color-grey-1: hsla(0, 0%, 80%, 1);
   --color-grey-0: hsla(0, 0%, 95%, 1);
   --color-white: hsla(0, 0%, 100%, 1);
+
+  /* Typeface */
+  --font-montserrat: "Montserrat", san-serif;
 }
