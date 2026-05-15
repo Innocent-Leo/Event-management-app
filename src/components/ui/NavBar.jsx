@@ -1,5 +1,5 @@
 import React from "react";
-import { assets } from "../assets/assets";
+import { assets } from "../../assets/assets";
 
 const NavBar = () => {
   return (
@@ -31,7 +31,21 @@ const NavBar = () => {
               />
             </div>
           </div>
-          <div className="text-cyan-lightest text-xs">pennsylvania</div>
+          <div className="text-cyan-lightest flex flex-col items-center justify-center">
+            <img
+              src={assets.icons.locationIcon}
+              alt="location-icon"
+              className="w-4"
+            />
+            <div className="flex items-center justify-center gap-1">
+              <button className="text-xs">Lagos</button>
+              <img
+                src={assets.icons.arrowDownIcon}
+                alt="arrow-down-icon"
+                className="h-[4.37px] w-[7.5px]"
+              />
+            </div>
+          </div>
         </div>
       </div>
 
