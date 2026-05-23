@@ -1,15 +1,16 @@
 import React from "react";
-import { assets } from "../../assets/assets";
+
+import Categories from "./Categories";
+import Banner from "./Banner";
+import DateOption from "./DateOption";
 
 const Hero = () => {
   return (
-    <div>
-      <span></span>
-
-      <img src={assets.banners.heroImage1} alt="hero-image1" />
-
-      <span></span>
-    </div>
+    <>
+      <Banner />
+      <Categories />
+      <DateOption />
+    </>
   );
 };
 

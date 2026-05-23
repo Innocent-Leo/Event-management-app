@@ -20,7 +20,7 @@ const NavBar = () => {
 
             <input
               placeholder="Search all"
-              className="placeholder:text-grey-3 h-10 w-80 rounded-4xl bg-white px-10 py-4.5 leading-none placeholder:text-xs placeholder:font-medium"
+              className="placeholder:text-grey-3 h-10 w-80 rounded-full bg-white px-10 py-4.5 leading-none placeholder:text-xs placeholder:font-medium"
               type="search"
               name=""
               id=""
