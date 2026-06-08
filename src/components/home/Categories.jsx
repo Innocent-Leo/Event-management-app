@@ -5,8 +5,8 @@ const Categories = () => {
   return (
     <div className="flex flex-col gap-10 px-42 py-8">
       <div>
-        <h1 className="text-orange text-2xl font-semibold">Categories</h1>
-        <div className="bg-light-orange mt-0.50 h-1.25 w-14.5 rounded-md"></div>
+        <h1 className="text-orange title font-semibold">Categories</h1>
+        <div className="bg-light-orange mt-0.50 h-1.25 w-16.5 rounded-md"></div>
       </div>
 
       <div className="flex flex-col gap-10 font-medium [&_img]:w-30">

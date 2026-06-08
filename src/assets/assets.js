@@ -25,6 +25,8 @@ import Image13 from "./images/event-content/image-13.jpg";
 import Image14 from "./images/event-content/image-14.jpg";
 import Image15 from "./images/event-content/image-15.jpg";
 import Image16 from "./images/event-content/image-16.jpg";
+import promoCard1 from "./images/promo-card/promo-card1.jpg";
+import promoCard2 from "./images/promo-card/promo-card2.jpg";
 
 export const assets = {
   brandLogo,
@@ -62,5 +64,10 @@ export const assets = {
     Image14,
     Image15,
     Image16,
+  },
+
+  promoCard: {
+    promoCard1,
+    promoCard2,
   },
 };

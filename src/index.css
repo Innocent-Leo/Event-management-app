@@ -30,3 +30,7 @@
   /* Typeface */
   --font-montserrat: "Montserrat", san-serif;
 }
+
+.title {
+  font-size: 28px;
+}
