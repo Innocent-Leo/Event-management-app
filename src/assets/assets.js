@@ -27,6 +27,9 @@ import Image15 from "./images/event-content/image-15.jpg";
 import Image16 from "./images/event-content/image-16.jpg";
 import promoCard1 from "./images/promo-card/promo-card1.jpg";
 import promoCard2 from "./images/promo-card/promo-card2.jpg";
+import brooklynSimons from "./images/avatars/brooklynSimmons.png";
+import guyHawkins from "./images/avatars/guyHawkins.png";
+import bessieCooper from "./images/avatars/bessieCooper.png";
 
 export const assets = {
   brandLogo,
@@ -69,5 +72,11 @@ export const assets = {
   promoCard: {
     promoCard1,
     promoCard2,
+  },
+
+  avatars: {
+    brooklynSimons,
+    guyHawkins,
+    bessieCooper,
   },
 };
