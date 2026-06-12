@@ -1,12 +1,19 @@
 import React from "react";
 import { data } from "../../data";
+import { SlArrowRight } from "react-icons/sl";
 
 const Testimonials = () => {
   return (
     <div className="flex flex-col gap-8 px-42 pb-10">
-      <div>
-        <h1 className="text-orange title font-semibold">Notable Mentions</h1>
-        <div className="bg-light-orange mt-0.50 h-1.25 w-16.5 rounded-md"></div>
+      <div className="flex items-center justify-between">
+        <div>
+          <h1 className="text-orange title font-semibold">Notable Mentions</h1>
+          <div className="bg-light-orange mt-0.50 h-1.25 w-16.5 rounded-md"></div>
+        </div>
+
+        <span className="bg-cyan-darkest rounded-full p-4 text-white">
+          <SlArrowRight />
+        </span>
       </div>
 
       <div className="flex gap-10">
