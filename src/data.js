@@ -232,11 +232,11 @@ export const data = {
     },
   ],
 
-  Testimonials: [
+  testimonials: [
     {
       id: 17,
       image: assets.avatars.brooklynSimons,
-      Name: "Brooklyn Simons",
+      name: "Brooklyn Simons",
       title: "(VP, Xiaomi Cameroon)",
       content:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
@@ -244,7 +244,7 @@ export const data = {
     {
       id: 18,
       image: assets.avatars.guyHawkins,
-      Name: "Guy Hawkins",
+      name: "Guy Hawkins",
       title: "(Judge, India’s Got Talent)",
       content:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
@@ -252,7 +252,7 @@ export const data = {
     {
       id: 19,
       image: assets.avatars.bessieCooper,
-      Name: "Bessie Cooper",
+      name: "Bessie Cooper",
       title: "(Singer, Brazilia Broskies)",
       content:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
