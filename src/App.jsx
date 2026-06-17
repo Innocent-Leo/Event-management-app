@@ -5,6 +5,7 @@ import EventsListing from "./components/home/EventsListing";
 import Personalization from "./components/home/Personalization";
 import PromotionalCard from "./components/home/PromotionalCard";
 import Testimonials from "./components/home/Testimonials";
+import Footer from "./components/ui/Footer";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <Personalization />
       <PromotionalCard />
       <Testimonials />
+      <Footer />
     </div>
   );
 };
