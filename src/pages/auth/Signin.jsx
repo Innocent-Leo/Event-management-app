@@ -7,6 +7,10 @@ const Signin = () => {
       <AuthCard
         title={"Welcome back!"}
         text={"Enter your credentials to access your account"}
+        checkboxLabel={"Remember me"}
+        showForgotPassword={true}
+        buttonLabel={"Sign in"}
+        linkLabel={"Sign up"}
       />
     </>
   );

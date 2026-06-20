@@ -3,8 +3,17 @@ import { assets } from "../../assets/assets";
 import { FcGoogle } from "react-icons/fc";
 import { FaApple } from "react-icons/fa6";
 import Input from "../ui/Input";
+import AuthExtras from "./AuthExtras";
+import { Link } from "react-router";
 
-const AuthCard = ({ title, text }) => {
+const AuthCard = ({
+  title,
+  text,
+  checkboxLabel,
+  showForgotPassword,
+  buttonLabel,
+  linkLabel,
+}) => {
   return (
     <div className="grid h-screen grid-cols-2 items-center justify-center">
       <div className="mx-auto flex flex-col gap-6 rounded-sm p-6 text-xs font-medium shadow-md">
@@ -17,22 +26,16 @@ const AuthCard = ({ title, text }) => {
           <Input type="email" id="email" placeholder="Email address" />
           <Input type="password" id="email" placeholder="Password" />
 
-          <div className="flex items-center justify-between text-[10px]">
-            <label className="flex cursor-pointer items-center gap-1.5">
-              <Input type="checkbox" id="remember" className="accent-orange" />
-              <span className="text-grey-5">Remember me</span>
-            </label>
-
-            <a href="" className="text-light-cyan">
-              Forgotten password
-            </a>
-          </div>
+          <AuthExtras
+            checkboxLabel={checkboxLabel}
+            showForgotPassword={showForgotPassword}
+          />
 
           <button
             type="submit"
             className="bg-orange text-cyan-lightest rounded-md py-2.5 text-lg"
           >
-            Sign in
+            {buttonLabel}
           </button>
         </form>
 
@@ -58,9 +61,9 @@ const AuthCard = ({ title, text }) => {
 
           <div className="flex items-center justify-center gap-2">
             <p>Don't have an account?</p>
-            <a href="" className="text-dark-cyan font-medium">
-              Sign up
-            </a>
+            <Link to="/signup" className="text-dark-cyan font-medium">
+              {linkLabel}
+            </Link>
           </div>
         </div>
       </div>
