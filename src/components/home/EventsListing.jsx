@@ -9,7 +9,7 @@ import {
 
 const EventsListing = () => {
   return (
-    <div className="flex flex-col gap-8 px-42 py-8">
+    <div className="flex flex-col gap-8 py-8">
       <div className="text-grey-4 flex items-center gap-7 text-sm font-medium">
         <p className="text-light-cyan font-semibold underline decoration-2 underline-offset-4">
           All

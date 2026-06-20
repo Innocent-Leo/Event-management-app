@@ -3,7 +3,7 @@ import { assets } from "../../assets/assets";
 
 const Categories = () => {
   return (
-    <div className="flex flex-col gap-10 px-42 py-8">
+    <div className="flex flex-col gap-10 py-8">
       <div>
         <h1 className="text-orange title font-semibold">Categories</h1>
         <div className="bg-light-orange mt-0.50 h-1.25 w-16.5 rounded-md"></div>

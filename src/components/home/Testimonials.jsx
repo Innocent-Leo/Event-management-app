@@ -4,7 +4,7 @@ import { SlArrowRight } from "react-icons/sl";
 
 const Testimonials = () => {
   return (
-    <div className="flex flex-col gap-8 px-42 pb-10">
+    <div className="flex flex-col gap-8 pb-10">
       <div className="flex items-center justify-between">
         <div>
           <h1 className="text-orange title font-semibold">Notable Mentions</h1>

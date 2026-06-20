@@ -3,7 +3,7 @@ import { VscEye } from "react-icons/vsc";
 
 const Personalization = () => {
   return (
-    <div className="bg-cyan-lightest mx-42 my-8 flex flex-col gap-10 rounded-3xl p-8 font-medium">
+    <div className="bg-cyan-lightest my-8 flex flex-col gap-10 rounded-3xl p-8 font-medium">
       <div className="flex flex-col gap-2">
         <h1 className="title font-semibold">
           A personal experience like never before

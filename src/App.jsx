@@ -1,22 +1,10 @@
 import React from "react";
-import NavBar from "./components/ui/NavBar";
-import Hero from "./components/home/Hero";
-import EventsListing from "./components/home/EventsListing";
-import Personalization from "./components/home/Personalization";
-import PromotionalCard from "./components/home/PromotionalCard";
-import Testimonials from "./components/home/Testimonials";
-import Footer from "./components/ui/Footer";
+import AppRoutes from "./routes/AppRoutes";
 
 const App = () => {
   return (
     <div className="font-montserrat text-cyan-darkest">
-      <NavBar />
-      <Hero />
-      <EventsListing />
-      <Personalization />
-      <PromotionalCard />
-      <Testimonials />
-      <Footer />
+      <AppRoutes />
     </div>
   );
 };

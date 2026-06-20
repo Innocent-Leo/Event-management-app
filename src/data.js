@@ -5,7 +5,7 @@ export const data = {
   popular: [
     {
       id: 1,
-      image: assets.eventContent.Image1,
+      image: assets.eventContent.Event1,
       title: "Let you go insane",
       day: "Tuesday",
       date: "22nd January 2024",
@@ -19,7 +19,7 @@ export const data = {
     },
     {
       id: 2,
-      image: assets.eventContent.Image2,
+      image: assets.eventContent.Event2,
       title: "We The Tribals",
       day: "Friday",
       date: "25th January 2024",
@@ -33,7 +33,7 @@ export const data = {
     },
     {
       id: 3,
-      image: assets.eventContent.Image3,
+      image: assets.eventContent.Event3,
       title: "Join Us For Humanity",
       day: "Tuesday",
       date: "27th February",
@@ -47,7 +47,7 @@ export const data = {
     },
     {
       id: 4,
-      image: assets.eventContent.Image4,
+      image: assets.eventContent.Event4,
       title: "Save Earth",
       day: "Tuesday",
       date: "27th February",
@@ -61,7 +61,7 @@ export const data = {
     },
     {
       id: 5,
-      image: assets.eventContent.Image5,
+      image: assets.eventContent.Event5,
       title: "Linkin Park Celebration Party",
       day: "Sunday",
       date: "14th February",
@@ -75,7 +75,7 @@ export const data = {
     },
     {
       id: 6,
-      image: assets.eventContent.Image6,
+      image: assets.eventContent.Event6,
       title: "Together stronger!",
       day: "Friday",
       date: "15th December 2023",
@@ -89,7 +89,7 @@ export const data = {
     },
     {
       id: 7,
-      image: assets.eventContent.Image7,
+      image: assets.eventContent.Event7,
       title: "We celebrate the dead ",
       day: "Sunday",
       date: "14th February 2023",
@@ -103,7 +103,7 @@ export const data = {
     },
     {
       id: 8,
-      image: assets.eventContent.Image8,
+      image: assets.eventContent.Event8,
       title: "Food Life",
       day: "Tuesday",
       date: "27th February",
@@ -120,7 +120,7 @@ export const data = {
   moreEvents: [
     {
       id: 9,
-      image: assets.eventContent.Image9,
+      image: assets.eventContent.Event9,
       title: "Join Me: Birthday Party",
       day: "Tuesday",
       date: "22nd January 2024",
@@ -134,7 +134,7 @@ export const data = {
     },
     {
       id: 10,
-      image: assets.eventContent.Image10,
+      image: assets.eventContent.Event10,
       title: "Freedom March: Join our hands",
       day: "Friday",
       date: "25th January 2024",
@@ -148,7 +148,7 @@ export const data = {
     },
     {
       id: 11,
-      image: assets.eventContent.Image11,
+      image: assets.eventContent.Event11,
       title: "FStop Wars Petition Signing",
       day: "Tuesday",
       date: "27th February",
@@ -162,7 +162,7 @@ export const data = {
     },
     {
       id: 12,
-      image: assets.eventContent.Image12,
+      image: assets.eventContent.Event12,
       title: "The Weeknd: Starboy",
       day: "Tuesday",
       date: "27th February",
@@ -176,7 +176,7 @@ export const data = {
     },
     {
       id: 13,
-      image: assets.eventContent.Image13,
+      image: assets.eventContent.Event13,
       title: "Labrinth: Home Tour",
       day: "Sunday",
       date: "14th February",
@@ -190,7 +190,7 @@ export const data = {
     },
     {
       id: 14,
-      image: assets.eventContent.Image14,
+      image: assets.eventContent.Event14,
       title: "We Are One Tour",
       day: "Friday",
       date: "15th December 2023",
@@ -204,7 +204,7 @@ export const data = {
     },
     {
       id: 15,
-      image: assets.eventContent.Image15,
+      image: assets.eventContent.Event15,
       title: "Trust Foundation: Care for heart march",
       day: "Sunday",
       date: "14th February",
@@ -218,7 +218,7 @@ export const data = {
     },
     {
       id: 16,
-      image: assets.eventContent.Image16,
+      image: assets.eventContent.Event16,
       title: "Mom’s Kitchen",
       day: "Tuesday",
       date: "27th February",
