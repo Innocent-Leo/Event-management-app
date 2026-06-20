@@ -4,6 +4,7 @@ import { PiSlidersHorizontal, PiMagnifyingGlassLight } from "react-icons/pi";
 import { SlLocationPin } from "react-icons/sl";
 import { TiArrowSortedDown } from "react-icons/ti";
 import { BsTicket } from "react-icons/bs";
+import { Link } from "react-router";
 
 const NavBar = () => {
   return (
@@ -61,13 +62,14 @@ const NavBar = () => {
           </li>
         </ul>
 
-        <button
+        <Link
+          to="/signin"
           type="submit"
           className="bg-orange text-cyan-lightest flex h-10 w-32 items-center justify-center gap-2 rounded-md font-medium"
         >
           <BsTicket size={15} strokeWidth={0.25} className="rotate-45" />
           Sign in
-        </button>
+        </Link>
       </div>
     </nav>
   );
