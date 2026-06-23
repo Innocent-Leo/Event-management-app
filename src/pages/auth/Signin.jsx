@@ -6,11 +6,13 @@ const Signin = () => {
     <>
       <AuthCard
         title={"Welcome back!"}
-        text={"Enter your credentials to access your account"}
+        subtitle={"Enter your credentials to access your account"}
+        showExtraField={false}
         checkboxLabel={"Remember me"}
         showForgotPassword={true}
         buttonLabel={"Sign in"}
-        linkLabel={"Sign up"}
+        footerText={"Don't have an account?"}
+        footerLinkText={"Sign up"}
       />
     </>
   );

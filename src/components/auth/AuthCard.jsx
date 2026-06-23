@@ -2,45 +2,36 @@ import React from "react";
 import { assets } from "../../assets/assets";
 import { FcGoogle } from "react-icons/fc";
 import { FaApple } from "react-icons/fa6";
-import Input from "../ui/Input";
-import AuthExtras from "./AuthExtras";
 import { Link } from "react-router";
+import AuthForm from "./AuthForm";
 
 const AuthCard = ({
   title,
-  text,
-  checkboxLabel,
-  showForgotPassword,
+  subtitle,
   buttonLabel,
-  linkLabel,
+  checkboxLabel,
+  showExtraField,
+  showForgotPassword,
+  footerText,
+  footerLinkText,
 }) => {
   return (
     <div className="grid h-screen grid-cols-2 items-center justify-center">
       <div className="mx-auto flex flex-col gap-6 rounded-sm p-6 text-xs font-medium shadow-md">
-        <div className="font-semibold [&>h1]:mb-3 [&>h1]:text-3xl">
-          <h1 className="">{title}</h1>
-          <p className="">{text}</p>
+        <div className="font-semibold [&>h1]:text-3xl [&>p]:mt-3">
+          <h1>{title}</h1>
+          {subtitle && <p>{subtitle}</p>}
         </div>
 
-        <form action="" className="flex flex-col gap-4">
-          <Input type="email" id="email" placeholder="Email address" />
-          <Input type="password" id="email" placeholder="Password" />
-
-          <AuthExtras
-            checkboxLabel={checkboxLabel}
-            showForgotPassword={showForgotPassword}
-          />
-
-          <button
-            type="submit"
-            className="bg-orange text-cyan-lightest rounded-md py-2.5 text-lg"
-          >
-            {buttonLabel}
-          </button>
-        </form>
+        <AuthForm
+          checkboxLabel={checkboxLabel}
+          showExtraField={showExtraField}
+          showForgotPassword={showForgotPassword}
+          buttonLabel={buttonLabel}
+        />
 
         <div className="relative">
-          <hr className="border-[#f5f5f5]" />
+          <hr className="border-grey-1" />
           <p className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-white px-2 text-[10px]">
             Or
           </p>
@@ -60,9 +51,9 @@ const AuthCard = ({
           </div>
 
           <div className="flex items-center justify-center gap-2">
-            <p>Don't have an account?</p>
+            <p>{footerText}</p>
             <Link to="/signup" className="text-dark-cyan font-medium">
-              {linkLabel}
+              {footerLinkText}
             </Link>
           </div>
         </div>
