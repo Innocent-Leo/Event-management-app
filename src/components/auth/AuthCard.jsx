@@ -13,7 +13,9 @@ const AuthCard = ({
   showExtraField,
   showForgotPassword,
   footerText,
+  footerLink,
   footerLinkText,
+  formLink,
 }) => {
   return (
     <div className="grid h-screen grid-cols-2 items-center justify-center">
@@ -28,6 +30,7 @@ const AuthCard = ({
           showExtraField={showExtraField}
           showForgotPassword={showForgotPassword}
           buttonLabel={buttonLabel}
+          formLink={formLink}
         />
 
         <div className="relative">
@@ -52,7 +55,7 @@ const AuthCard = ({
 
           <div className="flex items-center justify-center gap-2">
             <p>{footerText}</p>
-            <Link to="/signup" className="text-dark-cyan font-medium">
+            <Link to={footerLink} className="text-dark-cyan font-medium">
               {footerLinkText}
             </Link>
           </div>

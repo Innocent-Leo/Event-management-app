@@ -12,6 +12,7 @@ const Signin = () => {
         showForgotPassword={true}
         buttonLabel={"Sign in"}
         footerText={"Don't have an account?"}
+        footerLink={"/signup"}
         footerLinkText={"Sign up"}
       />
     </>

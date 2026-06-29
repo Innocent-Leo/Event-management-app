@@ -11,6 +11,8 @@ const Signup = () => {
         showForgotPassword={false}
         footerText={"Have an account?"}
         footerLinkText={"Sign in"}
+        footerLink={"/signin"}
+        formLink={"/signup/step-1"}
         checkboxLabel={
           <>
             I agree to the{" "}

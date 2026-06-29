@@ -64,7 +64,6 @@ const NavBar = () => {
 
         <Link
           to="/signin"
-          type="submit"
           className="bg-orange text-cyan-lightest flex h-10 w-32 items-center justify-center gap-2 rounded-md font-medium"
         >
           <BsTicket size={15} strokeWidth={0.25} className="rotate-45" />
