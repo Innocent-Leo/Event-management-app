@@ -7,6 +7,9 @@ import Signup from "../pages/auth/Signup";
 import SignupStep1 from "../pages/auth/SignupStep1";
 import SignupStep2 from "../pages/auth/SignupStep2";
 import SignupStep3 from "../pages/auth/SignupStep3";
+import ProfilePageLayout from "../layouts/ProfilePageLayout";
+import AboutMe from "../pages/user-profile/AboutMe";
+import Bookings from "../pages/user-profile/Bookings";
 
 const AppRoutes = () => {
   return (
@@ -14,14 +17,22 @@ const AppRoutes = () => {
       <Route path="/" element={<MainLayout />}>
         {/* Home Page */}
         <Route index element={<HomePage />} />
+
+        {/* Profile Page */}
+        <Route path="profile" element={<ProfilePageLayout />}>
+          <Route index element={<AboutMe />} />
+          <Route path="bookings" element={<Bookings />} />
+        </Route>
       </Route>
 
       {/* Auth */}
-      <Route path="/signin" element={<Signin />} />
-      <Route path="/signup" element={<Signup />} />
-      <Route path="/signup/step-1" element={<SignupStep1 />} />
-      <Route path="/signup/step-2" element={<SignupStep2 />} />
-      <Route path="/signup/step-3" element={<SignupStep3 />} />
+      <Route path="signin" element={<Signin />} />
+      <Route path="signup">
+        <Route index element={<Signup />} />
+        <Route path="step-1" element={<SignupStep1 />} />
+        <Route path="step-2" element={<SignupStep2 />} />
+        <Route path="step-3" element={<SignupStep3 />} />
+      </Route>
     </Routes>
   );
 };

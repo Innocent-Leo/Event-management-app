@@ -124,7 +124,7 @@ const SignupStep1 = () => {
       <div className="flex items-center gap-6 self-end font-medium">
         <div className="text-cyan-darkest">Skip</div>
         <Link
-          to="/signup/step-2"
+          to="../step-2"
           className="text-cyan-lightest bg-dark-cyan w-35 rounded-sm py-2 text-center"
         >
           Next

@@ -26,13 +26,10 @@ const SignupStep3 = () => {
             <h2>Select your location</h2>
             <div className="relative">
               <select
-                name=""
-                id=""
+                defaultValue=""
                 className="text-grey-4 w-60 appearance-none rounded-sm rounded-b-xl p-3 text-sm shadow-md"
               >
-                <option value="" selected>
-                  Select
-                </option>
+                <option value="">Select</option>
               </select>
 
               <SlArrowDown
@@ -89,7 +86,7 @@ const SignupStep3 = () => {
       <div className="flex items-center gap-6 self-end font-medium">
         <div className="text-cyan-darkest">Skip</div>
         <Link
-          to="#"
+          to="/"
           className="text-cyan-lightest bg-dark-cyan w-35 rounded-sm py-2 text-center"
         >
           Finish up
