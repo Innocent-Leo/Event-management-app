@@ -9,7 +9,7 @@ import SignupStep2 from "../pages/auth/SignupStep2";
 import SignupStep3 from "../pages/auth/SignupStep3";
 import ProfilePageLayout from "../layouts/ProfilePageLayout";
 import AboutMe from "../pages/user-profile/AboutMe";
-import Bookings from "../pages/user-profile/Bookings";
+import Bookings from "../pages/user-profile/MyBookings";
 
 const AppRoutes = () => {
   return (

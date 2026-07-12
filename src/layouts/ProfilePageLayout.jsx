@@ -3,7 +3,7 @@ import { assets } from "../assets/assets";
 import ProfilePage from "../components/profile/ProfilePage";
 import AboutMe from "../pages/user-profile/AboutMe";
 import ProfileNavBar from "../components/profile/ProfileNavBar";
-import Bookings from "../pages/user-profile/Bookings";
+import Bookings from "../pages/user-profile/MyBookings";
 import { Outlet } from "react-router";
 
 const ProfilePageLayout = () => {
