@@ -333,4 +333,68 @@ export const data = {
       quantity: 2,
     },
   ],
+
+  events: {
+    upcoming: [
+      {
+        id: 28,
+        image: assets.events.event1,
+        eventName: "Welcome To The Party",
+        invitation: "Open",
+        location: "2118 Thornridge Cir. Syracuse, Connecticut 35624",
+      },
+      {
+        id: 29,
+        image: assets.events.event2,
+        eventName: "Taylor Swift Live Watch Party",
+        invitation: "Invite only",
+        location: "4140 Parker Rd. Allentown, New Mexico 31134",
+      },
+      {
+        id: 30,
+        image: assets.events.event3,
+        eventName: "We Recording Live! Join Us",
+        invitation: "Open",
+        location: "6391 Elgin St. Celina, Delaware 10299",
+      },
+      {
+        id: 31,
+        image: assets.events.event4,
+        eventName: "Linkin Park x Kiara",
+        invitation: "Open",
+        location: "1901 Thornridge Cir. Shiloh, Hawaii 81063",
+      },
+    ],
+
+    older: [
+      {
+        id: 32,
+        image: assets.events.event5,
+        eventName: "Midnight Melodies Concert",
+        invitation: "Closed",
+        location: "3517 W. Gray St. Utica, Pennsylvania 57867",
+      },
+      {
+        id: 33,
+        image: assets.events.event6,
+        eventName: "Rhythm & Vibes Live",
+        invitation: "Closed",
+        location: "2715 Ash Dr. San Jose, South Dakota 83475",
+      },
+      {
+        id: 34,
+        image: assets.events.event7,
+        eventName: "Midnight Melodies Concert",
+        invitation: "Closed",
+        location: "2972 Westheimer Rd. Santa Ana, Illinois 85486",
+      },
+      {
+        id: 35,
+        image: assets.events.event8,
+        eventName: "Live & Loud Festival",
+        invitation: "Closed",
+        location: "4140 Parker Rd. Allentown, New Mexico 31134",
+      },
+    ],
+  },
 };

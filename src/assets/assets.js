@@ -6,6 +6,7 @@ import * as categories from "./images/categories";
 import * as eventContent from "./images/event-content";
 import * as promoCard from "./images/promo-card";
 import * as tickets from "./images/tickets";
+import * as events from "./images/events";
 
 export const assets = {
   brandLogo,
@@ -16,4 +17,5 @@ export const assets = {
   eventContent,
   promoCard,
   tickets,
+  events,
 };

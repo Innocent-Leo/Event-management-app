@@ -2,7 +2,7 @@ import React from "react";
 import Input from "../ui/Input";
 import { PiSlidersHorizontal } from "react-icons/pi";
 
-const Filter = () => {
+const TicketFilter = () => {
   return (
     <div className="flex items-center justify-between">
       <div className="flex items-center gap-6">
@@ -22,4 +22,4 @@ const Filter = () => {
   );
 };
 
-export default Filter;
+export default TicketFilter;

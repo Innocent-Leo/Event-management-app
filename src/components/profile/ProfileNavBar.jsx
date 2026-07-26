@@ -10,7 +10,7 @@ const ProfileNavBar = () => {
       <NavLink to="bookings" className="">
         My bookings
       </NavLink>
-      <div>My events</div>
+      <NavLink to="events">My events</NavLink>
       <div>My favourites</div>
       <div>My calendar</div>
       <div>Settings</div>

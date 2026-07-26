@@ -10,6 +10,7 @@ import SignupStep3 from "../pages/auth/SignupStep3";
 import ProfilePageLayout from "../layouts/ProfilePageLayout";
 import AboutMe from "../pages/user-profile/AboutMe";
 import Bookings from "../pages/user-profile/MyBookings";
+import MyEvents from "../pages/user-profile/MyEvents";
 
 const AppRoutes = () => {
   return (
@@ -22,6 +23,7 @@ const AppRoutes = () => {
         <Route path="profile" element={<ProfilePageLayout />}>
           <Route index element={<AboutMe />} />
           <Route path="bookings" element={<Bookings />} />
+          <Route path="events" element={<MyEvents />} />
         </Route>
       </Route>
 
